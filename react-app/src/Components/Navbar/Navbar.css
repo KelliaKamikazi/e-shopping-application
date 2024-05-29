@@ -1,0 +1,67 @@
+.Navbar-body {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    align-items: center;
+    padding: 10px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Navbar-body .brand {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.menues {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.menu ul li a:hover, .menu ul li a.active {
+    color: #333;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.loginsignup {
+    display: flex;
+    align-items: center;
+}
+
+.loginsignup a {
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 25px;
+    background-color: #ff6347;
+    font-size: 18px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.loginsignup a:hover {
+    background-color: #ff4500;
+}
